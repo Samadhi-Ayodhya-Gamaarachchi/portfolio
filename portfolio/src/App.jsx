@@ -1,16 +1,21 @@
-
-import './App.css'
-import Header from './components/Header/Header'
-import NavBar from './components/NavBar/NavBar'
+import "./App.css";
+import Header from "./components/Header/Header";
+import cover from "./assets/cover.png"
 
 function App() {
- 
+  
+
+  
+
+
 
   return (
     <>
-     <Header/>
+      
+        <Header />
+        
     </>
-  )
+  );
 }
 
-export default App
+export default App;
