@@ -1,0 +1,12 @@
+.name{
+  align-content: center;
+  font-size: 40px;
+  font-weight: 100px;
+  justify-content: center;
+ 
+}
+
+.name .passion{
+  font-size: 60px;
+}
+
