@@ -1,12 +1,20 @@
-import React from 'react'
-import NavBar from '../NavBar/NavBar'
+import Header from "../Header/Header";
+import iot from '../../assets/iot.jpg'
+import entro from '../../assets/entro.png'
+import lassana from '../../assets/lassana-lanka.png'
 
 function Projects() {
+ 
+
   return (
-    <div>
-    <NavBar/>
-      <h2>Projects</h2>
-    </div>
+    <>
+     <Header/>
+     <h1> projects</h1>
+     <div className="photo-galary">
+
+     </div>
+
+    </>
   )
 }
 
