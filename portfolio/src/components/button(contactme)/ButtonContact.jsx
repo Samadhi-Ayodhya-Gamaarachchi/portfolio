@@ -1,18 +1,20 @@
-import React from 'react'
-import ContactMe from '../Contact me/ContactMe'
-
+import React from "react";
+import { useNavigate } from "react-router-dom";
+import '../button(contactme)/ButtonContact.css'
 function ButtonContact() {
-    const click=()=>{
-        <ContactMe/>
-    }
+  const navigate = useNavigate();
+
+  const goToContactPage = () => {
+    navigate("/contact");
+  };
+
   return (
     <div>
-        <div className='button'>
-            <button onClick={click}>Contact Me</button>
-        </div>
-      
+      <div className="button">
+        <button onClick={goToContactPage}>Contact Me</button>
+      </div>
     </div>
-  )
+  );
 }
 
-export default ButtonContact
+export default ButtonContact;
