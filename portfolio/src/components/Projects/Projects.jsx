@@ -11,7 +11,6 @@ function Projects() {
     {
       image: iot,
       title: "Automated Potato Sorting Machine",
-      
     },
     {
       image: entro,
@@ -20,7 +19,6 @@ function Projects() {
     {
       image: lassana,
       title: "Lassana Lanka",
-      
     },
   ];
 
@@ -31,6 +29,7 @@ function Projects() {
       <div className="gallery">
         {projects.map((project, index) => (
           <div className="gallery-item" key={index}>
+            {/* Use project.image and project.title */}
             <img src={project.image} alt={project.title} />
             <div className="hover-content">
               <p>{project.title}</p>

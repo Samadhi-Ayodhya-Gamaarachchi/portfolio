@@ -17,7 +17,7 @@
   height: auto;
   display: block;
   transition: transform 0.3s ease;
-  height: 200px;
+  height: 400px;
 }
 
 .gallery-item:hover img {
