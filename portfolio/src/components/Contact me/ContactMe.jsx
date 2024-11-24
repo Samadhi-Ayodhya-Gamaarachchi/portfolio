@@ -1,12 +1,17 @@
-import React from 'react'
-import NavBar from '../NavBar/NavBar'
+import Header from "../Header/Header";
+
+
+
 
 function ContactMe() {
+ 
+
   return (
-    <div>
-      <NavBar/>
-      <h2>Contact me</h2>
-    </div>
+    <>
+     <Header/>
+     <h1>This is contact</h1>
+
+    </>
   )
 }
 
