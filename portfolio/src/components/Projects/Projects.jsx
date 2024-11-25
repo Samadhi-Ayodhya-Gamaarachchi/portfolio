@@ -37,6 +37,7 @@ function Projects() {
           </div>
         ))}
       </div>
+      <h1>Competitions</h1>
     </>
   );
 }
